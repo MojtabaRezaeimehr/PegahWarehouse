@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="mainStaticticsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/indigo_text</item>
+        <item name="android:background">@color/textColor</item>
+    </style>
+    <style name="mainDetailsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/indigo_text</item>
+        <item name="android:background">@color/textColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="radioGroupTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@color/gray_radioGrup_backgroun</item>
+        <item name="android:layoutDirection">rtl</item>
+    </style>
+</resources>

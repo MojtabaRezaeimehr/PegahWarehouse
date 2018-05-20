@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_toolbar"
+    android:layout_width="match_parent" android:layout_height="50dp"
+    android:background="@color/search_box_background">
+
+        <EditText
+            android:id="@+id/edt_barcode_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/search_box_background"
+            android:textColor="#000"
+            android:text="321321321321321321321321321"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/ic_camera"
+            android:drawableEnd="@drawable/arrow_back_gray"
+            android:gravity="start|center_vertical"
+            android:hint="@string/txt_barcode"
+            android:singleLine="true"
+            android:textColorHint="#8c9eff"
+            android:textSize="14sp" />
+
+</android.support.v7.widget.Toolbar>
